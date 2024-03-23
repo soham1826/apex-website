@@ -16,13 +16,13 @@ const Footer = () => {
       <div className={styles.MainFooterContent}>
         <div className={cx(styles.footerItems)} id="footerContent">
           <div className={styles.QuotesContainer}>
-            <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>
+            <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>{/* :ritesh */}
           </div>
 
           <div>
             <div className={styles.LogoContainer}>
               <img src={logo} alt=""></img>
-              <div className={styles.title}>Atulyam'23</div>
+              <div className={styles.title}>APEX 3.0</div>
             </div>
           </div>
           <div className={styles['sponsor-wrapper']}>
@@ -62,6 +62,7 @@ const Footer = () => {
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
                   <WAIcon />
                 </a>
+                {/*links :ritesh */}
               </li>
             </ul>
           </div>
@@ -87,7 +88,7 @@ const Footer = () => {
             </button>
           </span>
           <span className={styles.sep}>~</span>
-          <span>&copy; 2023 Atulyam NIT Arunachal Pradesh</span>
+          <span>&copy; 2024 APEX Showdown SITRC</span>
           {devTeam && (
             <ul className={styles.devteam}>
               <li><a className={cx('link', styles.ln)} target='_blank' rel='noreferrer' href="https://github.com/tripathics">@tripathics</a></li>

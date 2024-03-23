@@ -73,7 +73,7 @@ const Navigation = ({ user }) => {
           )}
         </ul>
         <div className={styles['nav-footer']}>
-          &copy;2023 Atulyam NITAP
+          &copy;2024 APEX SITRC
         </div>
       </nav>
     </header>

@@ -39,8 +39,8 @@ const Home = ({ user }) => {
         </div>
         <header className={cx(styles.introContent, styles.sectionHeader, 'container')}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch' }}>Atulyam</span>
-            <span className={styles._ar}>2023</span>
+            <span style={{ marginRight: '3ch' }}>APEX 3.0</span>
+            <span className={styles._ar}>2024</span>
           </h2>
           <p className={styles.subtitle}>
             Apex is the annual tech festival of Sandip Institute of technology and research Nashik. A splendid idea realised by a group of students in 2022 at SITRC giving birth to Apex as we know it today.<br />
