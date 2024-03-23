@@ -257,7 +257,8 @@ export const events = {
     venue: 'Main Stage',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '1': {
     id: '1',
@@ -268,7 +269,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '2': {
     id: '2',
@@ -279,7 +281,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '3': {
     id: '3',
@@ -290,7 +293,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '4': {
     id: '4',
@@ -301,7 +305,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '5': {
     id: '5',
@@ -312,7 +317,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '6': {
     id: '6',
@@ -323,7 +329,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '7': {
     id: '7',
@@ -334,7 +341,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '8': {
     id: '8',
@@ -345,7 +353,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '9': {
     id: '9',
@@ -356,7 +365,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '10': {
     id: '10',
@@ -367,7 +377,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '11': {
     id: '11',
@@ -378,7 +389,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '12': {
     id: '12',
@@ -389,7 +401,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '13': {
     id: '13',
@@ -400,7 +413,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '14': {
     id: '14',
@@ -411,7 +425,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '15': {
     id: '15',
@@ -422,7 +437,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '16': {
     id: '16',
@@ -433,7 +449,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '17': {
     id: '17',
@@ -444,7 +461,8 @@ export const events = {
     venue: '',
     desc: '',
     type: 'Contest',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   },
   '18': {
     id: '18',
@@ -455,7 +473,8 @@ export const events = {
     venue: '',
     desc: '',
     type: '',
-    highlight: true
+    highlight: true,
+    isRegistrationOpen:true
   },
   '19': {
     id: '19',
@@ -466,7 +485,8 @@ export const events = {
     venue: '',
     desc: '',
     type: '',
-    highlight: false
+    highlight: false,
+    isRegistrationOpen:true
   }
 };
 
