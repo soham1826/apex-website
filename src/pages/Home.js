@@ -13,8 +13,8 @@ import Hero from '../components/Hero';
 import { motion } from 'framer-motion'
 
 const tags = [
-  'cosplay', 'fun', 'poetry', 'face painting', 'solo song', 'dance', 'essay', 'sketching',
-  'concert', 'flash mob', 'film making', 'joy', 'concert', 'dj', 'poetry slam'
+  'Code-a-thon', 'Data hackathon', 'Singing', 'dance', 'Rodies', 'sketching',
+   'flash mob', 'Video Editing','Cricket','BGMI'
 ]
 
 const Home = ({ user }) => {
@@ -43,8 +43,8 @@ const Home = ({ user }) => {
             <span className={styles._ar}>2024</span>
           </h2>
           <p className={styles.subtitle}>
-            Apex is the annual tech festival of Sandip Institute of technology and research Nashik. A splendid idea realised by a group of students in 2022 at SITRC giving birth to Apex as we know it today.<br />
-            After two years, we return with a more niwe and creative community than ever.
+            Apex is the annual tech festival of Sandip Institute of technology and research center Nashik. A splendid idea realised by a group of students at SITRC giving birth to Apex as we know it today.<br />
+            For this year, we return with a more awesome and creative community than ever.
           </p>
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
