@@ -38,7 +38,7 @@ const Navigation = ({ user }) => {
     <header>
       <nav className={styles.nav} id="nav">
         <div className={styles.logo}>
-          <NavLink to={'/'}>APEX </NavLink>
+          <NavLink to={'/'}>APEX SHOWDOWN</NavLink>
         </div>
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}
