@@ -67,7 +67,7 @@ const Events = ({ user }) => {
         </h1>
         <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
-            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Atulyam'23 in reels</span>
+            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Apex'23 in reels</span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
             <LinkIcon />
           </NavLink>
@@ -80,7 +80,7 @@ const Events = ({ user }) => {
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Thu.', 'Fri.', 'Sat.'].map((day, i) => (
+            {['Thu.', 'Fri.'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
