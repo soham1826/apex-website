@@ -40,7 +40,7 @@ const Home = ({ user }) => {
         </div>
         <header className={cx(styles.introContent, styles.sectionHeader, 'container')}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch' }}>APEX 3.0</span>
+            <span style={{ marginRight: '3ch' }}>APEX SD</span>
             <span className={styles._ar}>2024</span>
           </h2>
           <p className={styles.subtitle}>
