@@ -67,21 +67,20 @@ const Events = ({ user }) => {
         </h1>
         <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
-
             <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Apex'23 in reels</span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
             <LinkIcon />
           </NavLink>
         </div>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>May.4-6</h2>
-          <div>2023</div>
+          <h2>April.15-16</h2>
+          <div>2024</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Thu.', 'Fri.'].map((day, i) => (
+            {['Mon.', 'Tue.'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
@@ -103,7 +102,7 @@ const Events = ({ user }) => {
         </section>
       </main>
       <div className='container'>
-        <SupportLink />
+        {/* <SupportLink /> */}
       </div>
     </motion.div>
   )

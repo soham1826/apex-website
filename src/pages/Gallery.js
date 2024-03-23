@@ -49,8 +49,8 @@ const Gallery = ({ user }) => {
           <span>Gallery</span>
         </h1>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>May.4-6</h2>
-          <div>APEX 3.0 in reels</div>
+          <h2>April 13-14 2023</h2>
+          <div>APEX 2023 in reels</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
@@ -58,48 +58,28 @@ const Gallery = ({ user }) => {
 
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> DAY 1
+            <h1> APEX 2023 TEASER
             </h1>
-            <p>4<sup>th</sup> May</p>
+            {/* <p>4<sup>th</sup> May</p> */}
           </div>
           <div className='Video'>
-            <Video embedId={"lG3S6VUt7AE"} />
+            <Video embedId={"CsH8txZE8Nw"} />
           </div>
-
-
-
         </div>
         <br />
         <hr />
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> DAY 2
+            <h1> APEX 2023 AFTERMOVIE
             </h1>
-            <p>5<sup>th</sup> May</p>
+            {/* <p>4<sup>th</sup> May</p> */}
           </div>
           <div className='Video'>
-
-            <Video embedId={'xwGDkyz_LgI'} />
-          </div>
+            <Video embedId={"c7I2DDerO08"} />
+        </div>
         </div>
         <br />
         <hr />
-
-        <div className={cx(styles['gallery'])}>
-          <div className={cx(styles['h1'])}>
-            <h1> DAY 3
-            </h1>
-            <p>6<sup>th</sup> May</p>
-          </div>
-          <div className='Video'>
-            <Video embedId={"Mioso9Rv_N0"} />
-          </div>
-
-        </div>
-
-
-
-
 
       </main>
     </motion.div>
