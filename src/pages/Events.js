@@ -4,7 +4,7 @@ import cx from 'classnames';
 import { events } from '../data/data';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import SupportLink from '../components/SupportLink';
+// import SupportLink from '../components/SupportLink';
 import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
 
 const timeCompare = (a, b) => {

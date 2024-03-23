@@ -1,8 +1,8 @@
 import styles from '../styles/Footer.module.scss';
-import logo from '../media/logo/atulyamLogo.png'
-import echoOfArunachal from '../media/logo/echo_arunachal.png'
-import hotelObsidianBlue from '../media/logo/hotel-obsidian-blue.png'
-import bye from '../media/bye.png';
+import logo from '../media/Apex-logo.png';
+// import echoOfArunachal from '../media/logo/echo_arunachal.png'
+// import hotelObsidianBlue from '../media/logo/hotel-obsidian-blue.png'
+// import bye from '../media/bye.png';
 import cx from 'classnames'
 import { ReactComponent as MailIcon } from '../media/icons/mail.svg';
 import { ReactComponent as WAIcon } from '../media/icons/wa.svg';
@@ -16,21 +16,21 @@ const Footer = () => {
       <div className={styles.MainFooterContent}>
         <div className={cx(styles.footerItems)} id="footerContent">
           <div className={styles.QuotesContainer}>
-            <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>{/* :ritesh */}
+            <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>
           </div>
 
           <div>
             <div className={styles.LogoContainer}>
               <img src={logo} alt=""></img>
-              <div className={styles.title}>APEX 3.0</div>
+              {/* <div className={styles.title}>APEX 3.0</div> */}
             </div>
           </div>
           <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>
               <p style={{ textAlign: "center", fontSize: '1.2rem' }}>Our Sponsors</p>
               <div className={styles.sponsorImgs}>
-                <img className={styles.sponsors} src={echoOfArunachal} alt=""></img>
-                <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img>
+                {/* <img className={styles.sponsors} src={echoOfArunachal} alt=""></img>
+                <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img> */}
               </div>
             </div>
           </div>
@@ -62,7 +62,6 @@ const Footer = () => {
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
                   <WAIcon />
                 </a>
-                {/*links :ritesh */}
               </li>
             </ul>
           </div>
@@ -73,7 +72,7 @@ const Footer = () => {
             <span>for your support</span>
           </div>
           <div>
-            <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img>
+            {/* <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img> */}
           </div>
         </div>
       </div>

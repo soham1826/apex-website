@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styles from './HighlightCard.module.scss';
-
+import { registration_link } from '../data/data';
 const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user }) => (
   <article className={styles.card}>
     <figure>
@@ -15,10 +15,12 @@ const HighlightCard = ({ figureSrc, title, desc, type, isRegistrationOpen, user 
         ) : <div className={styles.type}>{type}</div>}
       </div>
     </main>
-    {type === 'Contest' && isRegistrationOpen && (
-      user ? <NavLink className={styles.link} to='/register'>Register</NavLink>
-        : <NavLink className={styles.link} to='/signup'>Register</NavLink>
-    )}
+    {type === 'Contest' && (<NavLink  className={styles.link} to={registration_link}>Register</NavLink>)}
+    
+    {/* {type === 'Contest' && isRegistrationOpen && (
+      user ? <NavLink className={styles.link} to='hello.com'>Register</NavLink>
+        : <NavLink className={styles.link} to='hello.com'>Register</NavLink>
+    )} */}
   </article>
 )
 
