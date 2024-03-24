@@ -120,7 +120,7 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
 
 const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover }) => {
   const handleLinkClik = ()=>{
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfuAg4oKabxHx_ZcmMZWVKRnFRJBMerml59WXFyhaBlO3afQg/viewform?usp=sf_link"
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf56c_RT3NY17ZES5qDdBl97lAD4b9B_-f-uBepDw4XZ_fZpg/viewform?usp=sf_link"
   }
   return (
     <li className={cx(styles['event-li'])} onClick={handleLinkClik}>
