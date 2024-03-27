@@ -44,8 +44,8 @@ const Home = ({ user }) => {
             <span className={styles._ar}>2024</span>
           </h2>
           <p className={styles.subtitle}>
-            Apex is the annual tech festival of Sandip Institute of technology and research center Nashik. A splendid idea realised by a group of students at SITRC giving birth to Apex as we know it today.<br />
-            For this year, we return with a more awesome and creative community than ever.
+            Apex Showdown is the annual tech festival organized by Department of Computer Engineering of  Sandip Institute of technology and research center Nashik. A splendid idea realised by a group of students at SITRC giving birth to Apex as we know it today.<br />
+            For this year, we return with a more awesome and creative community and events than ever.
           </p>
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>

@@ -15,9 +15,9 @@ const Footer = () => {
     <footer className='container'>
       <div className={styles.MainFooterContent}>
         <div className={cx(styles.footerItems)} id="footerContent">
-          <div className={styles.QuotesContainer}>
+          {/* <div className={styles.QuotesContainer}>
             <div className={styles.quotes}>Our cultural fest is a mosaic of traditions, where stories unfold, and memories are made</div>
-          </div>
+          </div> */}
 
           <div>
             <div className={styles.LogoContainer}>
@@ -25,35 +25,36 @@ const Footer = () => {
               {/* <div className={styles.title}>APEX 3.0</div> */}
             </div>
           </div>
-          <div className={styles['sponsor-wrapper']}>
+          {/* <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>
               <p style={{ textAlign: "center", fontSize: '1.2rem' }}>Our Sponsors</p>
               <div className={styles.sponsorImgs}>
-                {/* <img className={styles.sponsors} src={echoOfArunachal} alt=""></img>
-                <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img> */}
+                <img className={styles.sponsors} src={echoOfArunachal} alt=""></img>
+                <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.footerItems}>
           <div >
             <p>Contact us</p>
             <ul className={styles.SocialHandles}>
-              <li className={cx(styles['handle-wrapper'])}>
+              {/* <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.facebook.com/atulyamnitap">
                   <svg role="presentation" aria-label="Facebook" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-facebook"></use>
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/nitap_atulyam/">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/team.cesa/
+">
                   <svg role="presentation" aria-label="Twitter" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li className={cx(styles['handle-wrapper'])}>
+              {/* <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="mailto:atulyam@nitap.ac.in">
                   <MailIcon />
                 </a>
@@ -62,7 +63,7 @@ const Footer = () => {
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
                   <WAIcon />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -79,22 +80,23 @@ const Footer = () => {
       <div className={styles.copyright}>
         <div className={styles.team}>
           <span>
-            Handcrafted with 🖤 by
-            <button className={cx(styles.devteamBtn, {
+            Handcrafted with 🖤 by 
+            <a href='https://github.com/soham1826'> Soham </a>
+            &
+            <a href='https://github.com/Everest1508'> Ritesh</a>
+            {/* <button className={cx(styles.devteamBtn, {
               [styles.on]: devTeam
             })} onClick={(e) => { e.preventDefault(); setDevTeam(!devTeam) }}>
-              Team4One
-            </button>
+            </button> */}
           </span>
           <span className={styles.sep}>~</span>
           <span>&copy; 2024 APEX Showdown SITRC</span>
-          {devTeam && (
+          {/* {devTeam && (
             <ul className={styles.devteam}>
               <li><a className={cx('link', styles.ln)} target='_blank' rel='noreferrer' href="https://github.com/tripathics">@tripathics</a></li>
               <li><a className={cx('link', styles.ln)} target='_blank' rel='noreferrer' href="https://github.com/pursottam6003">@pursottam6003</a></li>
-              <li><a className={cx('link', styles.ln)} target='_blank' rel='noreferrer' href="https://github.com/daknya">@daknya</a></li>
             </ul>
-          )}
+          )} */}
         </div>
       </div>
     </footer>

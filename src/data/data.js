@@ -44,32 +44,101 @@ export const coordinators = [
     phone: '',
     email: ''
   },
-    { name: 'Likha Tassam', roll: 'CSE/20/04', phone: '6033936115', email: 'likhatassam1@gmail.com' },
-  { name: 'Pritam Das', roll: 'CSE/20/23', phone: '6033951631', email: 'ashirathore27@gmail.com' },
-  { name: 'Nitesh Thakur', roll: 'CE/20/22', phone: '9366497382', email: 'niteshthakur93106@gmail.com' },
-  { name: 'Novaneel Mandal', roll: 'CSE/20/02', phone: '6033951670', email: 'novaneel2802@gmail.com' },
-  { name: 'Eshaan Srivastava', roll: 'CSE/20/22', phone: '9791174935', email: 'eshaansrivastava4@gmail.com' },
-  { name: 'Piyush Pratap Singh', roll: 'CSE/20/18', phone: '9452079064', email: 'piyushsingh9491@gmail.com' },
-  { name: 'K. Biswadeep Singh', roll: 'ECE/20/14', phone: '9436208518', email: 'biswadeepsingh28@gmail.com' },
-  { name: 'Madap Waghe', roll: 'EE/20/16', phone: '6033967147', email: 'wahgemadap@gmail.com' },
-  { name: 'Jummo Ngomle', roll: 'ME/20/14', phone: '6033936148', email: 'Ngomlejummo@gmail.com' },
-  { name: 'Louich Taid', roll: 'CSE/20/15', phone: '9612203876', email: 'Loiuchtaid64@gmail.com' },
-  { name: 'Chandrashekhar Tripathi', roll: 'CSE/20/38', phone: '8448052156', email: 'tripathics17@gmail.com' },
-  { name: 'Pursottam Sah', roll: 'CSE/20/37', phone: '8259053265', email: 'rahulsah6003@gmail.com' },
-  { name: 'Moji Bogo', roll: 'CE/20/30', phone: '6033940384', email: 'mojibogo911@gmail.com' },
-    { name: 'Usha Pertin', roll: 'ECE/20/31', phone: '6033940652', email: 'usha.btech.ece.20@nitap.ac.in' },
-  { name: 'Tasso Moryang', roll: 'EE/20/03', phone: '6033954707', email: 'tasso.btech.ee.20@nitap.ac.in' },
-  { name: 'Rani Taki', roll: 'EE/20/21', phone: '6033948747', email: 'ranitaki.btech.ee.20@nitap.ac.in' },
-  { name: 'Rani Dolma', roll: 'EE/20/03', phone: '6033944208', email: 'rani.btech.ee.20@nitap.ac.in' },
-  { name: 'Gaggam Taggu', roll: 'CE/20/01', phone: '9485262395', email: 'gagam.btech.ce.20@nitap.ac.in' },
-  { name: 'Mekruk Waii', roll: 'ME/20/08', phone: '6033916621', email: 'mekruk.btech.me.20@nitap.ac.in' },
-  { name: 'Yashishree Raj Verma', roll: 'CE/20/20', phone: '9402004641', email: 'yashishree.btech.ce.20@nitap.ac.in' },
-  { name: 'Nabam Jermin', roll: 'EE/21/B041', phone: '6033927150', email: 'nabam.ee.21@nitap.ac.in' },
-  { name: 'Mitinam Siram', roll: 'CSE21B045', phone: '6033946757', email: 'Mitinam.cse.21@nitap.ac.in' },
-  { name: 'Muskan Kumari', roll: 'CE/20/15', phone: '7633868965', email: 'muskan.btech.ce.20@nitap.ac.in' },
-  { name: 'Dolly Gautam', roll: 'ECE/20/24', phone: '9521429017', email: 'dolly.btech.ece.20@nitap.ac.in' },
-  { name: 'Tania Doni', roll: '', phone: '', email: '' },
-  { name: 'Prokash Pegu', roll: '', phone: '', email: '' },
+  {
+    name: 'Srujal Laware',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Jitesh Jawale',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Jeetkumar Tirpude',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Prathamesh Chandore',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Hemant Chaudhari',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Ritesh Mahale',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Mayank Gogulwar',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Kaustubh Chaudhari',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Soham Kulkarni ',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Komal Mahajan',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Atharva Joshi',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+
+
+
+  //   { name: 'Likha Tassam', roll: 'CSE/20/04', phone: '6033936115', email: 'likhatassam1@gmail.com' },
+  // { name: 'Pritam Das', roll: 'CSE/20/23', phone: '6033951631', email: 'ashirathore27@gmail.com' },
+  // { name: 'Nitesh Thakur', roll: 'CE/20/22', phone: '9366497382', email: 'niteshthakur93106@gmail.com' },
+  // { name: 'Novaneel Mandal', roll: 'CSE/20/02', phone: '6033951670', email: 'novaneel2802@gmail.com' },
+  // { name: 'Eshaan Srivastava', roll: 'CSE/20/22', phone: '9791174935', email: 'eshaansrivastava4@gmail.com' },
+  // { name: 'Piyush Pratap Singh', roll: 'CSE/20/18', phone: '9452079064', email: 'piyushsingh9491@gmail.com' },
+  // { name: 'K. Biswadeep Singh', roll: 'ECE/20/14', phone: '9436208518', email: 'biswadeepsingh28@gmail.com' },
+  // { name: 'Madap Waghe', roll: 'EE/20/16', phone: '6033967147', email: 'wahgemadap@gmail.com' },
+  // { name: 'Jummo Ngomle', roll: 'ME/20/14', phone: '6033936148', email: 'Ngomlejummo@gmail.com' },
+  // { name: 'Louich Taid', roll: 'CSE/20/15', phone: '9612203876', email: 'Loiuchtaid64@gmail.com' },
+  // { name: 'Chandrashekhar Tripathi', roll: 'CSE/20/38', phone: '8448052156', email: 'tripathics17@gmail.com' },
+  // { name: 'Pursottam Sah', roll: 'CSE/20/37', phone: '8259053265', email: 'rahulsah6003@gmail.com' },
+  // { name: 'Moji Bogo', roll: 'CE/20/30', phone: '6033940384', email: 'mojibogo911@gmail.com' },
+  //   { name: 'Usha Pertin', roll: 'ECE/20/31', phone: '6033940652', email: 'usha.btech.ece.20@nitap.ac.in' },
+  // { name: 'Tasso Moryang', roll: 'EE/20/03', phone: '6033954707', email: 'tasso.btech.ee.20@nitap.ac.in' },
+  // { name: 'Rani Taki', roll: 'EE/20/21', phone: '6033948747', email: 'ranitaki.btech.ee.20@nitap.ac.in' },
+  // { name: 'Rani Dolma', roll: 'EE/20/03', phone: '6033944208', email: 'rani.btech.ee.20@nitap.ac.in' },
+  // { name: 'Gaggam Taggu', roll: 'CE/20/01', phone: '9485262395', email: 'gagam.btech.ce.20@nitap.ac.in' },
+  // { name: 'Mekruk Waii', roll: 'ME/20/08', phone: '6033916621', email: 'mekruk.btech.me.20@nitap.ac.in' },
+  // { name: 'Yashishree Raj Verma', roll: 'CE/20/20', phone: '9402004641', email: 'yashishree.btech.ce.20@nitap.ac.in' },
+  // { name: 'Nabam Jermin', roll: 'EE/21/B041', phone: '6033927150', email: 'nabam.ee.21@nitap.ac.in' },
+  // { name: 'Mitinam Siram', roll: 'CSE21B045', phone: '6033946757', email: 'Mitinam.cse.21@nitap.ac.in' },
+  // { name: 'Muskan Kumari', roll: 'CE/20/15', phone: '7633868965', email: 'muskan.btech.ce.20@nitap.ac.in' },
+  // { name: 'Dolly Gautam', roll: 'ECE/20/24', phone: '9521429017', email: 'dolly.btech.ece.20@nitap.ac.in' },
+  // { name: 'Tania Doni', roll: '', phone: '', email: '' },
+  // { name: 'Prokash Pegu', roll: '', phone: '', email: '' },
 ];
 
 
@@ -122,12 +191,12 @@ export const mainCoordinators = [
   {
     name: 'Srujal Laware',
     roles: ['President'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Srujal Laware.jpeg'
   },
   {
     name: 'Jitesh Jawale',
     roles: ['Institute General Secretary'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/jitesh jawale 2.jpg'
   },
   {
     name: 'Jeetkumar Tirpude',
@@ -137,47 +206,47 @@ export const mainCoordinators = [
   {
     name: 'Prathamesh Chandore',
     roles: ['Vice President'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Prathmesh_Chandore.jpg'
   },
   {
     name: 'Hemant Chaudhari',
     roles: ['Vice President'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Hemant Chaudhari.jpeg'
   },
   {
     name: 'Rishikesh Marathe',
     roles: ['Secretary'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Rishikesh Marathe.jpg'
   },
   {
     name: 'Mayank Gogulwar',
     roles: ['Video Editor'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Mayank Gogulwar.jpg'
   },
   {
     name: 'Ritesh Mahale',
-    roles: ['Web Designer'],
+    roles: ['Web Developer'],
     imgSrc: ''
   },
   {
     name: 'Soham Kulkarni',
-    roles: ['Web Designer'],
-    imgSrc: ''
+    roles: ['Web Developer'],
+    imgSrc: 'media/coordinators/Soham Kulkarni .jpeg'
   },
   {
-    name: 'Kaustubh Chaudhari',
+    name: 'Kaustubh Khairnar',
     roles: ['Head Manager'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Kaustubh Khairnar.jpg'
   },
   {
     name: 'Komal Mahajan',
     roles: ['Student Representative'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Komal Mahajan.jpg'
   },
   {
     name: 'Atharv Joshi',
     roles: ['Student Relation Head'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/Atharva Joshi.jpg'
   }
 ];
 
