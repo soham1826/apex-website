@@ -87,7 +87,7 @@ export const coordinators = [
     email: ''
   },
   {
-    name: 'Kaustubh Chaudhari',
+    name: 'Kaustubh Khairnar',
     roll: '',
     phone: '',
     email: ''
@@ -189,18 +189,23 @@ export const coordinators = [
 
 export const mainCoordinators = [
   {
-    name: 'Srujal Laware',
-    roles: ['President'],
-    imgSrc: 'media/coordinators/Srujal Laware.jpeg'
+    name: 'Komal Mahajan',
+    roles: ['Student Representative'],
+    imgSrc: 'media/coordinators/Komal Mahajan.jpg'
   },
   {
-    name: 'Jitesh Jawale',
-    roles: ['Institute General Secretary'],
-    imgSrc: 'media/coordinators/jitesh jawale 2.jpg'
+    name: 'Mayank Gogulwar',
+    roles: ['Video Editor'],
+    imgSrc: 'media/coordinators/Mayank Gogulwar.jpg'
   },
   {
-    name: 'Jeetkumar Tirpude',
-    roles: ['Strategy Director'],
+    name: 'Soham Kulkarni',
+    roles: ['Web Developer'],
+    imgSrc: 'media/coordinators/Soham Kulkarni .jpeg'
+  },
+  {
+    name: 'Ritesh Mahale',
+    roles: ['Web Developer'],
     imgSrc: ''
   },
   {
@@ -209,29 +214,14 @@ export const mainCoordinators = [
     imgSrc: 'media/coordinators/Prathmesh_Chandore.jpg'
   },
   {
+    name: 'Srujal Laware',
+    roles: ['President'],
+    imgSrc: 'media/coordinators/Srujal Laware.jpeg'
+  },
+  {
     name: 'Hemant Chaudhari',
     roles: ['Vice President'],
     imgSrc: 'media/coordinators/Hemant Chaudhari.jpeg'
-  },
-  {
-    name: 'Rishikesh Marathe',
-    roles: ['Secretary'],
-    imgSrc: 'media/coordinators/Rishikesh Marathe.jpg'
-  },
-  {
-    name: 'Mayank Gogulwar',
-    roles: ['Video Editor'],
-    imgSrc: 'media/coordinators/Mayank Gogulwar.jpg'
-  },
-  {
-    name: 'Ritesh Mahale',
-    roles: ['Web Developer'],
-    imgSrc: ''
-  },
-  {
-    name: 'Soham Kulkarni',
-    roles: ['Web Developer'],
-    imgSrc: 'media/coordinators/Soham Kulkarni .jpeg'
   },
   {
     name: 'Kaustubh Khairnar',
@@ -239,9 +229,19 @@ export const mainCoordinators = [
     imgSrc: 'media/coordinators/Kaustubh Khairnar.jpg'
   },
   {
-    name: 'Komal Mahajan',
-    roles: ['Student Representative'],
-    imgSrc: 'media/coordinators/Komal Mahajan.jpg'
+    name: 'Jitesh Jawale',
+    roles: ['Institute General Secretary'],
+    imgSrc: 'media/coordinators/jitesh jawale 2.jpg'
+  },
+  {
+    name: 'Rishikesh Marathe',
+    roles: ['Secretary'],
+    imgSrc: 'media/coordinators/Rishikesh Marathe.jpg'
+  },
+  {
+    name: 'Jeetkumar Tirpude',
+    roles: ['Strategy Director'],
+    imgSrc: ''
   },
   {
     name: 'Atharv Joshi',
