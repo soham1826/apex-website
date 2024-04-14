@@ -248,7 +248,7 @@ export const mainCoordinators = [
   {
     name: 'Jitesh Jawale',
     roles: ['Institute General Secretary'],
-    imgSrc: 'media/coordinators/jitesh jawale 2.jpg'
+    imgSrc: 'media/coordinators/jeet.png'
   },
   {
     name: 'Rishikesh Marathe',
