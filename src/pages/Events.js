@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import styles from '../styles/Events.module.scss';
 import cx from 'classnames';
-import { events } from '../data/data';
+import { events, registration_link } from '../data/data';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 // import SupportLink from '../components/SupportLink';
@@ -73,14 +73,14 @@ const Events = ({ user }) => {
           </NavLink>
         </div>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>April.15-16</h2>
+          <h2>April.18-19</h2>
           <div>2024</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Mon.', 'Tue.'].map((day, i) => (
+            {['Thu.', 'Fri.'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
@@ -120,8 +120,7 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
 
 const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover }) => {
   const handleLinkClik = ()=>{
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf56c_RT3NY17ZES5qDdBl97lAD4b9B_-f-uBepDw4XZ_fZpg/viewform?usp=sf_link"
-  }
+    window.location.href =  registration_link}
   return (
     <li className={cx(styles['event-li'])} onClick={handleLinkClik}>
       <article className={styles['event-li-inner']}

@@ -1,5 +1,5 @@
 export const eventStartDate = 'May 4, 2023 10:00:00';
-export const registration_link = "https://docs.google.com/forms/d/e/1FAIpQLSf56c_RT3NY17ZES5qDdBl97lAD4b9B_-f-uBepDw4XZ_fZpg/viewform?usp=sf_link";
+export const registration_link = "https://taplink.cc/apex_showdown";
 
 export const coordinators = [
   {
@@ -110,6 +110,18 @@ export const coordinators = [
     phone: '',
     email: ''
   },
+  {
+    name: 'Yadnesh patil',
+    roll: '',
+    phone: '',
+    email: ''
+  },
+  {
+    name: 'Prasad Shelar',
+    roll: '',
+    phone: '',
+    email: ''
+  },
 
 
 
@@ -189,14 +201,14 @@ export const coordinators = [
 
 export const mainCoordinators = [
   {
+    name:'Yadnesh Patil',
+    roles:['Event Manager'],
+    imgSrc:'media/coordinators/yadnesh.jpeg'
+  },
+  {
     name: 'Komal Mahajan',
     roles: ['Student Representative'],
     imgSrc: 'media/coordinators/Komal Mahajan.jpg'
-  },
-  {
-    name: 'Mayank Gogulwar',
-    roles: ['Video Editor'],
-    imgSrc: 'media/coordinators/Mayank Gogulwar.jpg'
   },
   {
     name: 'Soham Kulkarni',
@@ -206,12 +218,17 @@ export const mainCoordinators = [
   {
     name: 'Ritesh Mahale',
     roles: ['Web Developer'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/RiteshMahale.jpeg'
   },
   {
-    name: 'Prathamesh Chandore',
+    name: 'Mayank Gogulwar',
+    roles: ['Video Editor'],
+    imgSrc: 'media/coordinators/Mayank Gogulwar.jpg'
+  },
+  {
+    name: 'Hemant Chaudhari',
     roles: ['Vice President'],
-    imgSrc: 'media/coordinators/Prathmesh_Chandore.jpg'
+    imgSrc: 'media/coordinators/Hemant Chaudhari.jpeg'
   },
   {
     name: 'Srujal Laware',
@@ -219,9 +236,9 @@ export const mainCoordinators = [
     imgSrc: 'media/coordinators/Srujal Laware.jpeg'
   },
   {
-    name: 'Hemant Chaudhari',
+    name: 'Prathamesh Chandore',
     roles: ['Vice President'],
-    imgSrc: 'media/coordinators/Hemant Chaudhari.jpeg'
+    imgSrc: 'media/coordinators/Prathmesh_Chandore.jpg'
   },
   {
     name: 'Kaustubh Khairnar',
@@ -241,13 +258,18 @@ export const mainCoordinators = [
   {
     name: 'Jeetkumar Tirpude',
     roles: ['Strategy Director'],
-    imgSrc: ''
+    imgSrc: 'media/coordinators/jeetkumar.png'
   },
   {
     name: 'Atharv Joshi',
     roles: ['Student Relation Head'],
     imgSrc: 'media/coordinators/Atharva Joshi.jpg'
-  }
+  },
+  {
+    name:'Prasad Shelar',
+    roles:['Head Executive'],
+    imgSrc:'media/coordinators/prasad.jpg'
+  },
 ];
 
 
@@ -325,9 +347,9 @@ export const events = {
     time: '10:00 - 11:00',
     venue: 'Main Stage',
     desc: '',
-    type: 'Contest',
+    type: '',
     highlight: false,
-    isRegistrationOpen:true
+    isRegistrationOpen:false
   },
   '1': {
     id: '1',
@@ -541,7 +563,7 @@ export const events = {
     time: '18:00 - 19:00',
     venue: '',
     desc: '',
-    type: '',
+    type: 'Contest',
     highlight: true,
     isRegistrationOpen:true
   },

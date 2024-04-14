@@ -20,11 +20,12 @@ footer {
 .footerItems {
     display: flex;
     flex-grow: 1;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     font-size: 1rem;
     justify-content: space-around;
+    gap: 10px;
 
     >* {
         flex: 1;
@@ -54,6 +55,7 @@ footer {
 .LogoContainer {
     margin: 0.625rem 1rem 1rem;
     position: relative;
+    
 
     >img {
         width: 250px;
@@ -79,6 +81,21 @@ footer {
         transform: translate(-50%, 0);
     }
 }
+.sponsorContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    .sponsorLogoContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .sponsorLogo{
+            width: 12.5rem;
+            height: 5rem;
+        }
+    }
+}
+
 
 .Registerbtn {
     padding: 0.5rem;
@@ -137,19 +154,37 @@ footer {
     }
 }
 
-@media screen and (max-width:630px) {
-    .footerContent {
-        justify-content: center;
-        flex-direction: column;
-        gap: 1rem
-    }
-
-    .footerItems {
-        justify-content: center;
-        flex-direction: column;
-        gap: 1rem;
-    }
+@media screen and (max-width:1300px) {
+.sponsorContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .sponsorLogoContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .sponsorLogo{
+                width: 8rem;
+                height: 3.5rem;
+            }
+        }
 }
+}
+// @media screen and (max-width:630px) {
+//     .footerContent {
+//         justify-content: center;
+//         flex-direction: column;
+//         gap: 1rem
+//     }
+
+//     .footerItems {
+//         justify-content: center;
+//         flex-direction: column;
+//         gap: 1rem;
+//     }
+// }
 
 .SocialHandles {
     display: flex;

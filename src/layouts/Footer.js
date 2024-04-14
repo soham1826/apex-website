@@ -3,6 +3,12 @@ import logo from '../media/Apex-logo.png';
 // import echoOfArunachal from '../media/logo/echo_arunachal.png'
 // import hotelObsidianBlue from '../media/logo/hotel-obsidian-blue.png'
 // import bye from '../media/bye.png';
+import radio from "../media/radio.jpeg"
+import rubcon from "../media/rubcon.jpeg"
+import sabedor from "../media/sabedor.jpeg"
+import shivendu from "../media/shivendu.png"
+import bluribbon from "../media/blueribbon.png"
+
 import cx from 'classnames'
 import { ReactComponent as MailIcon } from '../media/icons/mail.svg';
 import { ReactComponent as WAIcon } from '../media/icons/wa.svg';
@@ -24,6 +30,20 @@ const Footer = () => {
               <img src={logo} alt=""></img>
               {/* <div className={styles.title}>APEX 3.0</div> */}
             </div>
+            <p style={{ textAlign: "center", fontSize: '2rem' }}>Our Sponsors</p>
+            <div className={styles.sponsorContainer}>
+              <div className={styles.sponsorLogoContainer}>
+              <img className={styles.sponsorLogo} src={rubcon} alt=""></img>
+              <img className={styles.sponsorLogo} src={radio} alt=""></img>
+              </div>
+              <div className={styles.sponsorLogoContainer}>
+              <img className={styles.sponsorLogo} src={shivendu} alt=""></img>
+              <img className={styles.sponsorLogo} src={sabedor} alt=""></img>
+              </div>
+              <div className={styles.sponsorLogoContainer}>
+              <img className={styles.sponsorLogo} src={bluribbon} alt=""></img>
+              </div>
+            </div>
           </div>
           {/* <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>
@@ -36,36 +56,7 @@ const Footer = () => {
           </div> */}
         </div>
         <div className={styles.footerItems}>
-          <div >
-            <p>Contact us</p>
-            <ul className={styles.SocialHandles}>
-              {/* <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.facebook.com/atulyamnitap">
-                  <svg role="presentation" aria-label="Facebook" aria-hidden="true">
-                    <use href="/media/icons/sprite.svg#social-facebook"></use>
-                  </svg>
-                </a>
-              </li> */}
-              <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/team.cesa/
-">
-                  <svg role="presentation" aria-label="Twitter" aria-hidden="true">
-                    <use href="/media/icons/sprite.svg#social-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              {/* <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="mailto:atulyam@nitap.ac.in">
-                  <MailIcon />
-                </a>
-              </li>
-              <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
-                  <WAIcon />
-                </a>
-              </li> */}
-            </ul>
-          </div>
+          
 
           <div className={styles.thanks}>
             <span>Thank you</span>
