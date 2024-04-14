@@ -8,6 +8,7 @@ import rubcon from "../media/rubcon.jpeg"
 import sabedor from "../media/sabedor.jpeg"
 import shivendu from "../media/shivendu.png"
 import bluribbon from "../media/blueribbon.png"
+import Avani from "../media/avani.jpeg"
 
 import cx from 'classnames'
 import { ReactComponent as MailIcon } from '../media/icons/mail.svg';
@@ -42,6 +43,7 @@ const Footer = () => {
               </div>
               <div className={styles.sponsorLogoContainer}>
               <img className={styles.sponsorLogo} src={bluribbon} alt=""></img>
+              <img className={styles.sponsorLogo} src={Avani} alt=""></img>
               </div>
             </div>
           </div>

@@ -65,6 +65,7 @@ const Events = ({ user }) => {
           <span>Event</span>
           <span>Schedule</span>
         </h1>
+        <h3>CLICK ON ANY EVENT NAME TO REGISTER😎</h3>
         <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
             <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Apex'23 in reels</span>
